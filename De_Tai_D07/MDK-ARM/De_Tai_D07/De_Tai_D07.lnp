@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"de_tai_d07\startup_stm32f103xb.o"
+"de_tai_d07\main.o"
+"de_tai_d07\gpio.o"
+"de_tai_d07\tim.o"
+"de_tai_d07\stm32f1xx_it.o"
+"de_tai_d07\stm32f1xx_hal_msp.o"
+"de_tai_d07\hcsr04.o"
+"de_tai_d07\stm32f1xx_hal_gpio_ex.o"
+"de_tai_d07\stm32f1xx_hal_tim.o"
+"de_tai_d07\stm32f1xx_hal_tim_ex.o"
+"de_tai_d07\stm32f1xx_hal.o"
+"de_tai_d07\stm32f1xx_hal_rcc.o"
+"de_tai_d07\stm32f1xx_hal_rcc_ex.o"
+"de_tai_d07\stm32f1xx_hal_gpio.o"
+"de_tai_d07\stm32f1xx_hal_dma.o"
+"de_tai_d07\stm32f1xx_hal_cortex.o"
+"de_tai_d07\stm32f1xx_hal_pwr.o"
+"de_tai_d07\stm32f1xx_hal_flash.o"
+"de_tai_d07\stm32f1xx_hal_flash_ex.o"
+"de_tai_d07\stm32f1xx_hal_exti.o"
+"de_tai_d07\system_stm32f1xx.o"
+--strict --scatter "De_Tai_D07\De_Tai_D07.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "De_Tai_D07.map" -o De_Tai_D07\De_Tai_D07.axf
